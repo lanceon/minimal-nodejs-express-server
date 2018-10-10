@@ -1,0 +1,19 @@
+{
+  "name": "node-js-server",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack --mode production --config webpack.conf.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
